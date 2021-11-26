@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	color: #fff;
+	animation: blinkingBackground 2s infinite;
+	}
+
+@keyframes blinkingBackground{
+	0%		{ background-color: #10c018;}
+	25%		{ background-color: #1056c0;}
+	50%		{ background-color: #ef0a1a;}
+	75%		{ background-color: #254878;}
+	100%	{ background-color: #04a1d5;}
+	}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
